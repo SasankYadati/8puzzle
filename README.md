@@ -159,7 +159,7 @@ a pointer to the parent node    <br>
 <i>path-cost</i><br>
 the cost of the path to the current node.<br>
 
-# Compilation using g++
+# Compilation & Running using g++
 
-<code>g++ astar.cpp puzzle.cpp problem.cpp main.cpp -o excutable-name.exe</code>
+<code>g++ astar.cpp puzzle.cpp problem.cpp main.cpp -o excutable-name.exe</code><br>
 <code>executable-name.exe</code>
