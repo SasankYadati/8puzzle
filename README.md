@@ -162,3 +162,4 @@ the cost of the path to the current node.<br>
 # Compilation using g++
 
 <code>g++ astar.cpp puzzle.cpp problem.cpp main.cpp -o excutable-name.exe</code>
+<code>executable-name.exe</code>
