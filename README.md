@@ -4,10 +4,11 @@ A sliding block puzzle, whose solution is found using A* Search.
 
 author	  : happystick <br>
 mail-id	  : sai.sasank.yadati@gmail.com <br>
-last mod. : 27/12/2016 <br>
+last mod. : 29/12/2016 <br>
 
 Note : The distinction between a state and a node is crucial to the understanding of A* Search, which is used to solve 8 Puzzle in this project. However, the terms node & state are used interchangebly in this document. In fact, it is important to understand any AI search algorithm.
 
+# 8 Puzzle
 # a.Problem Definition :
  
 In this puzzle, we have a 3x3 grid containing 9 squares containing 8 tiles and 1 blank. The 8 tiles are numbered 1 to 8. The blank can move up, down, left or right depending on it's position. 
