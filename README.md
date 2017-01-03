@@ -176,11 +176,11 @@ The input is space separated integers representing the positions of the tiles fr
 The input for the above initial state is,<br> 
 <code> 4 7 6 2 0 1 3 8 5 </code><br>
 
-The goal state is for this problem is<br>
+The goal state is for this problem is,<br>
 
-        1  2  3
+	1  2  3
 	4  5  6
-	7  8 
+	7  8  
 	
 The output sequence is,<br>
 <code> 8 0 1 2 3 4 5 6 7 </code>
