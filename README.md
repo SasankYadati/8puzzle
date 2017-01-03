@@ -4,9 +4,9 @@ A sliding block puzzle, whose solution is found using A* Search.
 
 author	  : happystick <br>
 mail-id	  : sai.sasank.yadati@gmail.com <br>
-last mod. : 29/12/2016 <br>
+last mod. : 03/01/2017 <br>
 
-Note : The distinction between a state and a node is crucial to the understanding of A* Search, which is used to solve 8 Puzzle in this project. However, the terms node & state are used interchangebly in this document. In fact, it is important to understand any AI search algorithm.
+Note : The distinction between a state and a node is crucial to the understanding of A* Search, which is used to solve the 8Puzzle problem. However, the terms node & state are used interchangebly in this document. In fact, this distinction is important to understand any AI search algorithm.
 
 # a.Problem Definition :
  
@@ -163,3 +163,26 @@ the cost of the path to the current node.<br>
 
 <code>g++ astar.cpp puzzle.cpp problem.cpp main.cpp -o excutable-name.exe</code><br>
 <code>executable-name.exe</code>
+
+# Input/Output Format
+Consider the following state as the initial state.<br>
+
+	4  5  3
+	6     8
+	2  1  7
+	
+The input is space separated integers representing the positions of the tiles from 0 to 8.<br>
+
+The input for the above initial state is,<br> 
+<code> 4 7 6 2 0 1 3 8 5 </code><br>
+
+The goal state is for this problem is<br>
+
+        1  2  3
+	4  5  6
+	7  8 
+	
+The output sequence is,<br>
+<code> 8 0 1 2 3 4 5 6 7 </code>
+
+
