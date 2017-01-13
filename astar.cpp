@@ -114,14 +114,14 @@ void astar(Puzzle initial_node)
         actions = temp->actions();
         switch(actions)
         {
-            case 3:possible_actions[0]=1;possible_actions[1]=1;break;
-            case 9:possible_actions[0]=1;possible_actions[3]=1;break;
-            case 6:possible_actions[1]=1;possible_actions[2]=1;break;
-            case 12:possible_actions[2]=1;possible_actions[3]=1;break;
-            case 7:possible_actions[0]=1;possible_actions[1]=1;possible_actions[2]=1;break;
-            case 11:possible_actions[0]=1;possible_actions[1]=1;possible_actions[3]=1;break;
-            case 13:possible_actions[0]=1;possible_actions[3]=1;possible_actions[2]=1;break;
-            case 14:possible_actions[3]=1;possible_actions[1]=1;possible_actions[2]=1;break;
+            case 3:possible_actions[0]=1;possible_actions[1]=1;possible_actions[2]=0;possible_actions[3]=0;break;
+            case 9:possible_actions[0]=1;possible_actions[3]=1;possible_actions[2]=0;possible_actions[1]=0;break;
+            case 6:possible_actions[1]=1;possible_actions[2]=1;possible_actions[0]=0;possible_actions[3]=0;break;
+            case 12:possible_actions[2]=1;possible_actions[3]=1;possible_actions[1]=0;possible_actions[0]=0;break;
+            case 7:possible_actions[0]=1;possible_actions[1]=1;possible_actions[2]=0;possible_actions[3]=0;break;
+            case 11:possible_actions[0]=1;possible_actions[1]=1;possible_actions[3]=1;possible_actions[2]=0;break;
+            case 13:possible_actions[0]=1;possible_actions[3]=1;possible_actions[2]=1;possible_actions[1]=0;break;
+            case 14:possible_actions[3]=1;possible_actions[1]=1;possible_actions[2]=1;possible_actions[0]=0;break;
             case 15:possible_actions[0]=1;possible_actions[1]=1;possible_actions[2]=1;possible_actions[3]=1;break;
         }
 
