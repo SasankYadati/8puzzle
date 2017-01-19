@@ -92,15 +92,15 @@ void astar(Puzzle initial_node)
     {
         if(top==-1)
         {
-            cout<<"failure"<<endl;
-            cout<<"no solution found!"<<endl;
+            //cout<<"failure"<<endl;
+            //cout<<"no solution found!"<<endl;
             return;
         }
         temp = popFrontier();
         insertExplored(temp->state);
         if(goalTest(temp))
         {
-            cout<<"success"<<endl;
+            //cout<<"success"<<endl;
             while(temp)
             {
                 for(int i=0; i<9; ++i)
