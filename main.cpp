@@ -9,8 +9,8 @@ int main()
     Puzzle initial;
     int pos;
     
-    cout<<"Welcome!"<<endl;
-    cout<<"Enter the positions of the tiles!"<<endl;
+    //cout<<"Welcome!"<<endl;
+    //cout<<"Enter the positions of the tiles!"<<endl;
     
     for(int i=0; i<9; ++i)
     {
