@@ -183,7 +183,7 @@ The goal state is for this problem is,<br>
 	7  8  
 	
 The output sequence is a series of states showing the optimal path to the goal state.<br>
-<code> 8 0 1 2 3 4 5 6 7 </code>
+<code> 8 0 1 2 3 4 5 6 7 </code><br>
 <code>.</code><br>
 <code>.</code><br>
 <code>.</code><br>
