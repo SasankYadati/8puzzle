@@ -8,7 +8,7 @@ last mod. : 03/01/2017 <br>
 
 Note : The distinction between a state and a node is crucial to the understanding of A* Search, which is used to solve the 8Puzzle problem. However, the terms node & state are used interchangebly in this document. In fact, this distinction is important to understand any AI search algorithm.
 
-# a.Problem Definition :
+# a. Problem Definition :
  
 In this puzzle, we have a 3x3 grid containing 9 squares containing 8 tiles and 1 blank. The 8 tiles are numbered 1 to 8. The blank can move up, down, left or right depending on it's position. 
 
@@ -16,14 +16,14 @@ Given an arbitrary initial configuration of the grid, the problem solving agent 
 
 The intial state can be any possible configuration of the 3x3 grid. On the other hand, the goal state has a definite order that is discussed later.
 
-# b.Problem Formulation :
+# b. Problem Formulation :
 
-1.State Description<br>
-2.Initial State & Goal State<br>
-3.Actions as function of states<br>
-4.Transition Model<br>
-5.Goal Test<br>
-6.Step Costs & Path Costs<br>
+1. State Description<br>
+2. Initial State & Goal State<br>
+3. Actions as function of states<br>
+4. Transition Model<br>
+5. Goal Test<br>
+6. Step Costs & Path Costs<br>
 
 # b.1 State Description : 
 
@@ -116,7 +116,7 @@ Path cost for the initial state is taken as zero.
 
 # c. Implementation details :
 
-1. Algorithm    <br>
+1. Algorithm<br>
 2. Heuristics<br>
 3. Structure of node<br>
 
