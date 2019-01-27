@@ -2,7 +2,7 @@
 A sliding block puzzle, whose solution is found using A* Search.
 
 
-author	  : happystick <br>
+author	  : sasank <br>
 mail-id	  : sai.sasank.yadati@gmail.com <br>
 last mod. : 03/01/2017 <br>
 
